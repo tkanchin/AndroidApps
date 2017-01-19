@@ -7,11 +7,11 @@ The repository contains many variants of android mobile applications which were 
 
 ##Things To Remember
 
-###FireBase backend
+###FireBase Backend
 Some of the mobile applications uses Firebase https://firebase.google.com/ for storing and retrieval of data. Please clone the project and
 change the code if you plan to use Firebase or any other custom made web-server. Please raise an issue if you need help on how to do this.
 
-###APIs
+###API's
 I have used many open source and trial period APIs to create these mobile applications. Please use your own APIs to avoid unncessary app crashes.
 
 Happy Coding!! :smile:
