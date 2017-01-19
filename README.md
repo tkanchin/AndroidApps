@@ -5,7 +5,7 @@ The repository contains many variants of android mobile applications which were 
 * Some apps provides examples on ListViews, AdapterViews, Activities and even Fragments.
 * Few cross platform apps built using FrameWork7 https://framework7.io/
 
-##Things to remember:
+##Things To Remember
 
 ###FireBase backend
 Some of the mobile applications uses Firebase https://firebase.google.com/ for storing and retrieval of data. Please clone the project and
