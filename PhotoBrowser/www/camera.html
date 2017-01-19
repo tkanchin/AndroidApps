@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Capture Photo</title>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        // Button onclick would call the below function
+
+        function capturePhoto(){
+
+        // Take picture from the camera and retrieve the image as  base 64 encoded string
+        navigator.camera.getPicture(onPhotoSuccess,onFail,{quality:50,destinationType: Camera.DestinationType.DATA_URL});
+
+        }
+
+        function onPhotoSuccess(imageData){
+         
+         var smallImage = document.getElementById('smallImage');
+         smallImage.style.display = 'block';
+         smallImage.src = "data:image/jpeg;base64," + imageData; 
+         alert('Success')}
+         
+         function onFail(message){
+          
+          alert('Failed because: ' + message);
+          
+          }
+
+
+    </script>
+</head>
+<body>
+   <button onclick="capturePhoto();">Capture Photo</button> <br>
+   <img style="display:none;width:60px;height:60px;" id="smallImage" src=""/>
+</body>
+</html>

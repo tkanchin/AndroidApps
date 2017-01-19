@@ -1,0 +1,128 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+    <div class="center sliding">Form</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="form" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="content-block-title">Contact Details</div>
+      <div class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-name"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Name</div>
+                <div class="item-input">
+                  <input type="text" placeholder="Your name" id="name"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+          <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-tel"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Mobile</div>
+                <div class="item-input">
+                  <input type="email" placeholder="Phone" id= "mobile"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+          <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-tel" ></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Work</div>
+                <div class="item-input">
+                  <input type="email" placeholder="Phone" id="work"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+          <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-tel" ></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Home</div>
+                <div class="item-input">
+                  <input type="email" placeholder="Phone" id="home"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-email" ></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">E-mail</div>
+                <div class="item-input">
+                  <input type="email" placeholder="E-mail" id="email"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-url" ></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">URL</div>
+                <div class="item-input">
+                  <input type="url" placeholder="URL" id="url"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-calendar" ></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Birth date</div>
+                <div class="item-input">
+                  <input type="date" placeholder="Birth day" value="2014-04-30" id="birthdate"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-name"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Picture</div>
+                <div class="item-input">
+                  <label class="get-picture">
+                    <label><input type="text" onchange="onPhotoSuccess" id="image" placeholder = "Get Image from Gallery"/></label>
+                    <div class="row">
+                    <input type="button" value="Get Picture" style="font-size: large;height: 30px;display: inline;background-color: #0A78E6" onclick="GetPicture()"/></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="content-block">
+        <div class="row">
+          <div class="col-50"><a href="index.html" class="button button-big button-fill color-red">Cancel</a></div>
+          <div class="col-50">
+            <input type="submit" value="Submit" class="button button-big button-fill color-green" id= "sub" onclick="SaveContact()"/>
+          </div>
+        </div>
+      </div>
+      </br>
+      </br>
+      </br>
+      </div>
+  </div>
+</div>

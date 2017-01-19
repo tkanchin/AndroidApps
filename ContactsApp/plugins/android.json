@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "edu.uncc.HW07"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "edu.uncc.HW07"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "edu.uncc.HW07"
+        }
+    },
+    "dependent_plugins": {}
+}

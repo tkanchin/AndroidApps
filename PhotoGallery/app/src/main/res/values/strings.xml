@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Photo Gallery</string>
+
+    <string name="button">Go</string>
+</resources>
