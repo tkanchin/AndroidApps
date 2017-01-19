@@ -1,8 +1,9 @@
 #Android Mobile Applications
 The repository contains many variants of android mobile applications which were natively developed using Android Studio.
-1. Some apps provide examples on the usage of basic UI elements such as Butttons, EditTexts, Radio Buttons, Checkboxes, etc..
-2. Some apps provides examples on ListViews, AdapterViews, Activities and even Fragments.
-3. Few cross platform apps built using FrameWork7 https://framework7.io/
+
+* Some apps provide examples on the usage of basic UI elements such as Butttons, EditTexts, Radio Buttons, Checkboxes, etc..
+* Some apps provides examples on ListViews, AdapterViews, Activities and even Fragments.
+* Few cross platform apps built using FrameWork7 https://framework7.io/
 
 ##Things to remember:
 
