@@ -5,18 +5,6 @@ The repository contains many variants of android mobile applications which were 
 * Some apps provides examples on ListViews, AdapterViews, Activities and even Fragments.
 * Few cross platform apps built using FrameWork7 https://framework7.io/
 
-
-To execute a simple Java code, please find the line below:
-
-```java
-Class Vidhan{
-
-public static void main(String[] args){
-  System.out.println("Hello World");
-}
-}
-```
-
 ## Things To Remember
 
 ### FireBase Backend
